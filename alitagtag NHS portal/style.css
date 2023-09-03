@@ -1,0 +1,83 @@
+  /*start of login*/
+  .login-card {
+      margin: auto;
+      background-color: #d5cfdd;
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 57px;
+      max-width: 400px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 5px;
+    }
+    
+    .form-group label {
+      display: block;
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      box-sizing: border-box;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #f0f0f0;
+      font-size: 1.2em;
+      color: #555;
+      box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
+    }
+    
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+      outline: none;
+    }
+    
+    input[type="submit"] {
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.2em;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #0069d9;
+    }
+    
+    .login-button {
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.2em;
+      padding: 10px;
+      width: 100%;
+      transition: background-color 0.3s ease;
+      transition: 0.25s;
+    }
+ /*end of login*/
+
+ /*start of header*/
+ .head{
+  margin: auto;
+  height: 300px;
+  width: 1250px;
+ }

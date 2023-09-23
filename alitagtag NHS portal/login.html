@@ -5,33 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>ALITAGTAG-NHS-PORTAL</title>
+    <link rel="stylesheet" href="boxicons/css/boxicons.css">
+    <title>ALTGTG</title>
 </head>
 <body>
-    
-    <card-content>                                                                                                                        
-        <div class="login-card">
-            <div class="card-header">
-              <h1>Please Log in</h1>
+    <div class="box">
+      <div class="top">
+        <img src="/images/top.png" alt="top">
+      </div>
+        <div class="container">
+            <div class="top-header">
+                <span>Welcome to Alitagtag National Highschool</span>
+                <header>Please Login</header>
             </div>
-            <div class="card-body">
-              <form>
-                <div class="form-group">
-                  <label for="username">Username</label>
-                  <input type="text" id="username" name="username" required="">
-                </div>
-                <div class="form-group">
-                  <label for="password">Password</label>
-                  <input type="password" id="password" name="password" required="">
-                </div>
-                <div class="form-group">
-                  <button type="submit" class="login-button">Login</button>
-                  <a href="homepage.html" target=_self></a>
-                </div>
-              </form>
-            </div>
-          </div>
-    </card-content>
 
+            <form action="login.php" method="post">
+            <div class="input-field">
+                <input type="text" class="input" placeholder="Username" name="email">
+                <i class="bx bx-user"></i>
+            </div>
+            <br>
+            <div class="input-field">
+                <input type="password" class="input" placeholder="Password" required>
+                <i class="bx bx-lock-alt"></i>
+            </div>
+            <br>
+            <div class="input-field">
+                <input type="submit" class="submit" value="Log in">
+            </div>
+          </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
